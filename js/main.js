@@ -6,7 +6,6 @@ accordionHeaders.forEach((accordionHeader, index) => {
     if (index === 0) {
         accordionHeader.setAttribute('aria-expanded', 'true');
         target.setAttribute('aria-hidden', 'false');
-        target.inert = false;
         target.style.maxHeight = target.scrollHeight + 'px';
         target.style.opacity = 1;
         if (window.matchMedia('(max-width: 576px)').matches) {
@@ -21,7 +20,6 @@ accordionHeaders.forEach((accordionHeader, index) => {
         let expanded = accordionHeader.getAttribute('aria-expanded') === 'true';
         accordionHeader.setAttribute('aria-expanded', !expanded);
         target.setAttribute('aria-hidden', expanded);
-        target.inert = expanded;
 
         if (!expanded) {
             target.style.maxHeight = target.scrollHeight + 'px';

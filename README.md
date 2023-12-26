@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://github.com/ivanfadeev1/faq-accordion)
-- [Live Site URL](https://ivanfadeev1.github.io/faq-accordion/)
+- [Solution URL](https://github.com/)
+- [Live Site URL](https://ivanfadeev1.github.io/)
 
 ## My process
 
