@@ -65,6 +65,7 @@ body::before {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 0 24px;
   text-align: left;
   width: 100%;
   font-weight: 600;
