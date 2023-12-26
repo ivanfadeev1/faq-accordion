@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon-32x32.png">
+  <title>FAQs</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <main class="main">
+    <section class="accordion">
+      <div class="accordion__container">
+        <div class="accordion__wrapper">
+          <h1 class="accordion__title">FAQs</h1>
+
+          <div class="accordion__item">
+            <h3 class="accordion__header-container">
+              <button class="accordion__header"
+                      id="accordion-header-1"
+                      aria-controls="accordion-panel-1"
+                      aria-expanded="false">
+                <span class="accordion__header-text">What is Frontend Mentor, and how will it help me?</span>
+                <div class="accordion__icon" aria-hidden="true"></div>
+              </button>
+            </h3>
+            <section class="accordion__panel"
+                     id="accordion-panel-1"
+                     aria-labelledby="accordion-header-1"
+                     aria-hidden="true"
+                     inert>
+              <p class="accordion__panel-text">Frontend Mentor offers realistic coding challenges to help developers improve their frontend coding skills with projects in HTML, CSS, and JavaScript. It’s suitable for all levels and ideal for portfolio building.</p>
+            </section>
+          </div>
+
+          <div class="accordion__item">
+            <h3 class="accordion__header-container">
+              <button class="accordion__header"
+                      id="accordion-header-2"
+                      aria-controls="accordion-panel-2"
+                      aria-expanded="false">
+                <span class="accordion__header-text">Is Frontend Mentor free?</span>
+                <div class="accordion__icon" aria-hidden="true"></div>
+              </button>
+            </h3>
+            <section class="accordion__panel"
+                     id="accordion-panel-2"
+                     aria-labelledby="accordion-header-2"
+                     aria-hidden="true"
+                     inert>
+              <p class="accordion__panel-text">The majority of our challenges are free, yes. We do have some that are premium and require a Pro subscription to access. It will say on each challenge whether they are free or premium, so it's easy to tell the difference.</p>
+            </section>
+          </div>
+
+          <div class="accordion__item">
+            <h3 class="accordion__header-container">
+              <button class="accordion__header"
+                      id="accordion-header-3"
+                      aria-controls="accordion-panel-3"
+                      aria-expanded="false">
+                <span class="accordion__header-text">Can I use Frontend Mentor projects in my portfolio?</span>
+                <div class="accordion__icon" aria-hidden="true"></div>
+              </button>
+            </h3>
+            <section class="accordion__panel"
+                     id="accordion-panel-3"
+                     aria-labelledby="accordion-header-3"
+                     aria-hidden="true"
+                     inert>
+              <p class="accordion__panel-text">Your "Mentor Score" is a rough gauge of your reputation on the platform. Earning more points can boost your exposure within the community and get you on the Wall of Fame. Click "Learn about our Wall of Fame" on the Wall of Fame for all the information.</p>
+            </section>
+          </div>
+
+          <div class="accordion__item">
+            <h3 class="accordion__header-container">
+              <button class="accordion__header"
+                      id="accordion-header-4"
+                      aria-controls="accordion-panel-4"
+                      aria-expanded="false">
+                <span class="accordion__header-text">How can I get help if I'm stuck on a challenge?</span>
+                <div class="accordion__icon" aria-hidden="true"></div>
+              </button>
+            </h3>
+            <section class="accordion__panel"
+                     id="accordion-panel-4"
+                     aria-labelledby="accordion-header-4"
+                     aria-hidden="true"
+                     inert>
+              <p class="accordion__panel-text">The best (and quickest) way to get help on a challenge is in our Discord server. There are thousands of other developers in there, so it's a great place to ask questions. We even have a dedicated "help" channel! If you haven't joined yet, you can get an invite to our Discord server here.</p>
+            </section>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="js/main.js"></script>
+</body>
+</html>
