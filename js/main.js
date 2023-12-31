@@ -1,7 +1,7 @@
 const accordionHeaders = document.querySelectorAll('.accordion__header');
 
 accordionHeaders.forEach((accordionHeader, index) => {
-    let target = accordionHeader.parentElement.nextElementSibling;
+    const target = accordionHeader.parentElement.nextElementSibling;
 
     if (index === 0) {
         accordionHeader.setAttribute('aria-expanded', 'true');
@@ -17,7 +17,7 @@ accordionHeaders.forEach((accordionHeader, index) => {
     }
 
     accordionHeader.onclick = () => {
-        let expanded = accordionHeader.getAttribute('aria-expanded') === 'true';
+        const expanded = accordionHeader.getAttribute('aria-expanded') === 'true';
         accordionHeader.setAttribute('aria-expanded', !expanded);
         target.setAttribute('aria-hidden', expanded);
 
