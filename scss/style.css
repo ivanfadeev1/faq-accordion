@@ -26,11 +26,8 @@ body {
       background-image: url("../img/background-pattern-mobile.svg"); } }
 
 .accordion {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  padding: 100px 0; }
+  padding-top: 168px;
+  padding-bottom: 120px; }
   .accordion__container {
     max-width: 648px;
     padding: 0 24px;
@@ -95,8 +92,7 @@ body {
     overflow-y: clip; }
   @media (max-width: 576px) {
     .accordion {
-      align-items: flex-start;
-      padding: 143px 0; }
+      padding-top: 143px; }
       .accordion__wrapper {
         padding: 24px;
         padding-bottom: 4px;
@@ -115,3 +111,5 @@ body {
         font-size: 14px; }
       .accordion__item:not(:first-of-type) .accordion__header {
         padding-top: 20px; } }
+
+/*# sourceMappingURL=style.css.map */
